@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+:root {
+  --text-color: #fff;
+  --background-color: #1a5d1a;
+  --accent-color: #f1c93b;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#original-link {
+  outline: 0;
+  padding: 13px 20px;
+  font-size: 27px;
+  background: transparent;
+  border-radius: 42px;
+  flex: 1;
+  border: 2px solid var(--accent-color);
+  margin-right: 15px;
+}
+
+#original-link::placeholder {
+  color: var(--text-color);
+}
+
+.container {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin: 0;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-right: 35px;
+}
+h1 {
+  color: azure;
+  font-size: 5em;
+  text-shadow: -0.8191520405px 0px 0px #fbd85d, 0px -0.5735764357px 0px #ba9102,
+    -1.6383040811px -0.5735764357px 0px #fbd85d,
+    -0.8191520405px -1.1471528715px 0px #ba9102,
+    -2.4574561216px -1.1471528715px 0px #fbd85d,
+    -1.6383040811px -1.7207293072px 0px #ba9102,
+    -3.2766081622px -1.7207293072px 0px #fbd85d,
+    -2.4574561216px -2.294305743px 0px #ba9102,
+    -4.0957602027px -2.294305743px 0px #fbd85d,
+    -3.2766081622px -2.8678821787px 0px #ba9102,
+    -4.9149122433px -2.8678821787px 0px #fbd85d,
+    -4.0957602027px -3.4414586144px 0px #ba9102,
+    -5.7340642838px -3.4414586144px 0px #fbd85d,
+    -4.9149122433px -4.0150350502px 0px #ba9102,
+    -6.5532163244px -4.0150350502px 0px #fbd85d,
+    -5.7340642838px -4.5886114859px 0px #ba9102,
+    -7.3723683649px -4.5886114859px 0px #fbd85d,
+    -6.5532163244px -5.1621879217px 0px #ba9102,
+    -8.1915204055px -5.1621879217px 0px #fbd85d,
+    -7.3723683649px -5.7357643574px 0px #ba9102,
+    -9.010672446px -5.7357643574px 0px #fbd85d,
+    -8.1915204055px -6.3093407931px 0px #ba9102,
+    -9.8298244866px -6.3093407931px 0px #fbd85d,
+    -9.010672446px -6.8829172289px 0px #ba9102,
+    -10.6489765271px -6.8829172289px 0px #fbd85d,
+    -9.8298244866px -7.4564936646px 0px #ba9102,
+    -11.4681285676px -7.4564936646px 0px #fbd85d,
+    -10.6489765271px -8.0300701004px 0px #ba9102,
+    -12.2872806082px -8.0300701004px 0px #fbd85d,
+    -11.4681285676px -8.6036465361px 0px #ba9102,
+    -13.1064326487px -8.6036465361px 0px #fbd85d,
+    -12.2872806082px -9.1772229718px 0px #ba9102,
+    -13.9255846893px -9.1772229718px 0px #fbd85d,
+    -13.1064326487px -9.7507994076px 0px #ba9102,
+    -14.7447367298px -9.7507994076px 0px #fbd85d,
+    -13.9255846893px -10.3243758433px 0px #ba9102,
+    -15.5638887704px -10.3243758433px 0px #fbd85d,
+    -14.7447367298px -10.897952279px 0px #ba9102,
+    -16.3830408109px -10.897952279px 0px #fbd85d,
+    -15.5638887704px -11.4715287148px 0px #ba9102,
+    -17.2021928515px -11.4715287148px 0px #fbd85d,
+    -16.3830408109px -12.0451051505px 0px #ba9102,
+    -18.021344892px -12.0451051505px 0px #fbd85d,
+    -17.2021928515px -12.6186815863px 0px #ba9102,
+    -18.8404969326px -12.6186815863px 0px #fbd85d,
+    -18.021344892px -13.192258022px 0px #ba9102,
+    -19.6596489731px -13.192258022px 0px #fbd85d,
+    -18.8404969326px -13.7658344577px 0px #ba9102,
+    -20.4788010137px -13.7658344577px 0px #fbd85d,
+    -19.6596489731px -14.3394108935px 0px #ba9102,
+    -21.2979530542px -14.3394108935px 0px #fbd85d,
+    -20.4788010137px -14.9129873292px 0px #ba9102,
+    -22.1171050947px -14.9129873292px 0px #fbd85d,
+    -21.2979530542px -15.486563765px 0px #ba9102,
+    -22.9362571353px -15.486563765px 0px #fbd85d,
+    -22.1171050947px -16.0601402007px 0px #ba9102,
+    -23.7554091758px -16.0601402007px 0px #fbd85d,
+    -22.9362571353px -16.6337166364px 0px #ba9102,
+    -24.5745612164px -16.6337166364px 0px #fbd85d,
+    -23.7554091758px -17.2072930722px 0px #ba9102,
+    -25.3937132569px -17.2072930722px 0px #fbd85d,
+    -24.5745612164px -17.7808695079px 0px #ba9102,
+    -26.2128652975px -17.7808695079px 0px #fbd85d,
+    -25.3937132569px -18.3544459437px 0px #ba9102,
+    -27.032017338px -18.3544459437px 0px #fbd85d,
+    -26.2128652975px -18.9280223794px 0px #ba9102,
+    -27.8511693786px -18.9280223794px 0px #fbd85d,
+    -27.032017338px -19.5015988151px 0px #ba9102,
+    -28.6703214191px -19.5015988151px 0px #fbd85d,
+    -27.8511693786px -20.0751752509px 0px #ba9102,
+    -29.4894734597px -20.0751752509px 0px #fbd85d,
+    -28.6703214191px -20.6487516866px 0px #ba9102,
+    -30.3086255002px -20.6487516866px 0px #fbd85d,
+    -29.4894734597px -21.2223281224px 0px #ba9102,
+    -31.1277775407px -21.2223281224px 0px #fbd85d,
+    -30.3086255002px -21.7959045581px 0px #ba9102,
+    -31.9469295813px -21.7959045581px 0px #fbd85d,
+    -31.1277775407px -22.3694809938px 0px #ba9102,
+    -32.7660816218px -22.3694809938px 0px #fbd85d,
+    -31.9469295813px -22.9430574296px 0px #ba9102,
+    -33.5852336624px -22.9430574296px 0px #fbd85d,
+    -32.7660816218px -23.5166338653px 0px #ba9102,
+    -34.4043857029px -23.5166338653px 0px #fbd85d,
+    -33.5852336624px -24.0902103011px 0px #ba9102,
+    -35.2235377435px -24.0902103011px 0px #fbd85d,
+    -34.4043857029px -24.6637867368px 0px #ba9102,
+    -36.042689784px -24.6637867368px 0px #fbd85d,
+    -35.2235377435px -25.2373631725px 0px #ba9102,
+    -36.8618418246px -25.2373631725px 0px #fbd85d,
+    -36.042689784px -25.8109396083px 0px #ba9102;
+  transform: translatex(36.042689784px) translatey(25.2373631725px);
+  position: relative;
+  z-index: 1;
+}
+
+h2:first-of-type {
+  position: relative;
+  z-index: 2;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  background-color: var(--accent-color);
+  padding: 16px 31px;
+  font-size: 21px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: transparent;
+}
+
+button:active {
+  transform: scale(0.95); /* Butonu yüzde 5 küçült */
+}
+
+#kisaltilanlar {
+  opacity: 1;
+}
+
+span {
+  color: #1a5d1a;
+}
+
+.kisaltilan-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbd85d;
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 5px;
+  animation: slideIn 0.5s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.kisaltilan-link .link-text {
+  flex: 1;
+}
+
+.kisaltilan-link .link-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.kisaltilan-link .icon {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.kisaltilan-link .icon:hover {
+  transform: scale(1.3);
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
